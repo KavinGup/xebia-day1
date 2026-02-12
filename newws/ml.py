@@ -84,3 +84,11 @@ plt.figure(figsize=(10,6))
 plt.scatter(scale_x, scale_y)
 plt.plot(scale_x, predictions, 'r')
 plt.show()
+
+
+
+
+
+
+
+# Your code performs Simple Linear Regression to predict Brain Weight using Head Size. First, it loads the dataset and extracts input (X) and output (y) values. Then it calculates the slope and intercept manually using statistical formulas (Normal Equation method). Using these values, it predicts brain weight with the equation y = mx + c and plots the regression line on the scatter graph. After that, it calculates MSE and RMSE to measure how accurate the predictions are. Finally, it applies Gradient Descent with normalization to iteratively learn slope and intercept again and plots the new fitted line.
